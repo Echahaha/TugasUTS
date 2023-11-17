@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    object-fit: cover;
+}
+
+header .container {
+    position: relative;
+    z-index: 1;
+}
+
+#home {
+
+}
+
+#about {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+#skills {
+    padding: 4rem;
+}
+
+#projects {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+}
